@@ -3,54 +3,53 @@
     <head>
         <title>Registration Form</title>
     </head>
-    <body style="font-size: larger;">
-    <div class="registration form">
-            <a href="about">ABOUT</a>
-            <a href="contact us">CONTACT US</a>
-            <a href="inquiries">INQUIRIES</a>
-       <h1>REGISTRATION FORM FOR COHORT 10</h1>
+    <link rel="stylesheet" href="style.css"
+    <body>
+    <div class="container">
+       <h1>REGISTRATION FORM</h1>
         <form action="index.php" method="post" enctype="multipart/form-data">
-            
+           
        <div class="input-box">
             <label for="name" >NAME:</label>
-            <input type="text" id="name" value="name" placeholder="Enter full name">
+            <input type="text" id="name" placeholder="Enter full name">
         </div>
         <br>
         
         <div class="input-box">
             <label for="username">USERNAME:</label>
-            <input type="text" id="username" value="username" placeholder="Sarah">
+            <input type="text" id="username" placeholder="Sarah">
             <br>
         </div>    
-       <br>
+        <br>
         <div class="input-box">
             <label for="bday">DATE OF BIRTH:</label>
             <input type="date" id="bday" value="bday">
-       </div>
-       <br>    
-       
+       </div>    
+       <br>
        <div class="input-box">    
             <label for="email">EMAIL:</label>
-            <input type="email" id="email" value="email" placeholder="rex23@gmail.com">
+            <input type="email" id="email" placeholder="rex23@gmail.com">
        </div>
        <br>
        <div class="gender-details-box">
-       <label for="gender">GENDER:</label>
+        
+        <div class="gender category">
+        <label class="gender-title">GENDER:</label>     
        <label for="male">MALE</label>
        <input type="radio" id="male" value="male" name="gender">
        <label for="female">FEMALE</label>
        <input type="radio" id="female" value="female" name="gender">
        <label for="others">OTHERS</label>
        <input type="radio" id="others" value="others" name="gender">
-      </div>
-      <br>
-       <div class="input-box">
+     </div>
+    </div>
+       <br>
+      <div class="input-box">
             <label for="file">FILE:</label>
             <input type="file" id="file" accept="image/jpeg" value="file">
        </div>
        <br>
-
-        <div class="input box"> 
+        <div class="input-box"> 
             <label for="country">COUNTRY:</label>
             <select id="country">
                 <option value="Afghanistan" >Afghanistan</option>
@@ -72,34 +71,28 @@
                 <option value="Others" >Others</option>
                </select>
         </div>
-    <br>
+        <br>
         <div class="input-box">
             <label for="others">OTHERS:</label>
-            <input type="text" id="others" placeholder="Portugal" value="others">
+            <input type="text" id="others" placeholder="Portugal">
         </div>
-    <br>
+        <br>
         <div class="input-box">
             <label for="password">PASSWORD:</label>
-            <input type="password" id="password" placeholder="Enter password" value="password">
+            <input type="password" id="password" placeholder="Enter password">
         </div>    
-    <br>
+        <br>
         <div>
             <label for="terms and conditions Accept">TERMS AND CONDITIONS: ACCEPT</label>
             <input type="checkbox" id="terms and conditions Accept">
-            Hertechtrail academy reserves the right, at its sole discretion, to modify or replace this Agreement at any time. If a revision is material we will provide at least 30 days' notice prior to any new terms taking effect. What constitutes a material change will be determined at our sole discretion.By continuing to access or use our website after any revisions become effective, you agree to be bound by the revised terms.
+            
         <hr>
         </div>
-        <br>
+        
         <div class="form-submit-button">
         <input type="submit" value="SUBMIT">
        </div>
     </div>
     </form>
-    <br>
-        <footer>
-            DESIGNED BY MIA 
-            &copy;copyright reserved<br>
-            <small><a href="mailto:Galmamamie8@gmail.com">Galmamamie8@gmail.com</a></small>
-        </footer>
     </body>
 </html>
